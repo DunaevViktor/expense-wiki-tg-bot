@@ -1,0 +1,27 @@
+{
+  "name": "system-wiki-tg-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for Expense API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
+  },
+  "author": "SystemWIKI",
+  "dependencies": {
+    "jsforce": "^1.9.3",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DunaevViktor/expense-wiki-tg-bot.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DunaevViktor/expense-wiki-tg-bot/issues"
+  },
+  "homepage": "https://github.com/DunaevViktor/expense-wiki-tg-bot#readme"
+}
