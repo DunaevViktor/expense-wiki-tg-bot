@@ -23,8 +23,9 @@ var month = todayDay.getMonth();
 var monthName;
 var year = todayDay.getFullYear();
 
-var bot = new TelegramBot(token, { polling: true }, { webHook: { port : port, host : host } });
-bot.setWebHook(externalUrl + ':500/bot' + token);
+//var bot = new TelegramBot(token, { polling: true }, { webHook: { port : port, host : host } });
+//bot.setWebHook(externalUrl + ':500/bot' + token);
+var bot = new TelegramBot(token);
 
 bot.on("message", msg => {
   if (msg.text == "/start") {
