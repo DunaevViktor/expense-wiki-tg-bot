@@ -12,6 +12,7 @@
   },
   "author": "SystemWIKI",
   "dependencies": {
+    "force": "0.0.3",
     "jsforce": "^1.9.3",
     "node-telegram-bot-api": "^0.40.0"
   },
